@@ -112,3 +112,6 @@ venv.bak/
 
 .vscode/
 .idea/
+hooks/
+objects/
+refs/
