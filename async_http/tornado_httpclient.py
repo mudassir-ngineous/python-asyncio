@@ -1,3 +1,4 @@
+import asyncio
 import traceback
 from urllib.parse import urljoin
 
@@ -9,8 +10,9 @@ from tornado.httputil import url_concat
 
 GET = 'GET'
 POST = 'POST'
-TIMEOUT = 180
+TIMEOUT = 120000
 
+MAX_RETRY = 3
 
 class HttpCalls:
 
@@ -21,6 +23,7 @@ class HttpCalls:
 
     async def post(self, route, data, query=dict()):
 
+        url = None
         if "http" not in route:
             url = urljoin(self.base_url, route)
         else:
@@ -29,6 +32,7 @@ class HttpCalls:
 
     async def get(self, route: str, query=dict()) -> object:
 
+        url = None
         if "http" not in route:
             url = urljoin(self.base_url, route)
         else:
@@ -40,6 +44,8 @@ class HttpCalls:
 
     async def request(self, method, url, data=None, params=dict()) -> object:
         client = AsyncHTTPClient()
+        done = False
+        retries = 0
         if data is not None:
             data = json_encode(data)
         try:
@@ -58,36 +64,52 @@ class HttpCalls:
 
                     raise APIException(error)
 
-            with async_timeout.timeout(TIMEOUT):
 
-                headers = {'Content-Type': 'application/json'}
+            url = url_concat(url, params)
+            headers = {'Content-Type': 'application/json'}
+            req = HTTPRequest(
+                url=url,
+                headers=headers,
+                method=method,
+                body=data
+            )
 
-                url = url_concat(url, params)
+            async def fetch():
+                nonlocal retries, req, done
+                retries += 1
+                with async_timeout.timeout(120):
 
-                resp = await client.fetch(
-                    HTTPRequest(
-                        url=url,
-                        headers=headers,
-                        method=method,
-                        body=data
-                    )
-                )
+                    resp = await client.fetch(req)
 
-                if resp.headers['Content-Type'] == 'application/json':
-                    body = json_decode(resp.body)
-                else:
-                    body = resp.body
+                    if resp.headers['Content-Type'] == 'application/json':
+                        body = json_decode(resp.body)
+                    else:
+                        body = resp.body
 
-                return handle_response(body)
+                    done = True
+                    return handle_response(body)
 
+            return await fetch()
+
+        except asyncio.TimeoutError as ex:
+            if retries <= MAX_RETRY:
+                return await fetch()
+            else:
+                traceback.print_exc()
+                raise ex
         except HTTPError as ex:
-            traceback.print_exc()
-            pass
+            if retries <= 3:
+                return await fetch()
+            else:
+                traceback.print_exc()
+                raise ex
+
         except Exception as ex:
             traceback.print_exc()
             raise ex
         finally:
-            client.close()
+            if done:
+                client.close()
 
 
 class APIException(Exception):
