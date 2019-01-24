@@ -35,6 +35,7 @@ setup(
         "async_timeout",
         "aioredis",
         "motor",
-        "aiofiles"
+        "aiofiles",
+        "bokeh"
     ],
 )

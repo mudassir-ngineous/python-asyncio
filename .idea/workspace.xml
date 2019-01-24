@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="92a56ff5-72bb-4671-8ae6-9f12e47f7495" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/async_http/tornado_httpclient.py" afterPath="$PROJECT_DIR$/async_http/tornado_httpclient.py" />
+      <change beforePath="$PROJECT_DIR$/setup.py" afterPath="$PROJECT_DIR$/setup.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -48,57 +48,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test6.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/asyncio-tutorial/test6.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="20" />
-              <folding>
-                <element signature="e#20#34#0" expanded="true" />
-                <marker date="1532522066617" expanded="true" signature="90:95" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test5.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/asyncio-tutorial/test5.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="36" column="28" lean-forward="false" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="28" />
-              <folding>
-                <element signature="e#52#66#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test4.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/asyncio-tutorial/test4.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="28" column="33" lean-forward="false" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
-              <folding>
-                <marker date="1532520787574" expanded="true" signature="148:153" ph="..." />
-                <marker date="1532520787574" expanded="true" signature="594:599" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="aiohttp_client.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/async_http/aiohttp_client.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" column="27" lean-forward="false" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tornado_httpclient.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tornado_httpclient.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/async_http/tornado_httpclient.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="80">
@@ -110,26 +60,104 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test3.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/asyncio-tutorial/test3.py">
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bokeh_server/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" column="41" lean-forward="false" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+            <state relative-caret-position="522">
+              <caret line="29" column="51" lean-forward="false" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
               <folding>
-                <element signature="e#30#44#0" expanded="true" />
+                <element signature="e#15#29#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test7.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/asyncio-tutorial/test7.py">
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bokeh_server/bokeh_apps/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+            <state relative-caret-position="324">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding>
-                <marker date="1532534979005" expanded="true" signature="75:80" ph="..." />
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bokeh_server/bokeh_apps/app1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bokeh_server/bokeh_apps/app2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="46" lean-forward="false" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="46" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bokeh_server/handlers/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="30" column="8" lean-forward="false" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="64" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bokeh_server/handlers/app1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bokeh_server/handlers/app2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="20" column="27" lean-forward="false" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#48#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="setup.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/setup.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="508">
+              <caret line="38" column="14" lean-forward="false" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="server.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bokeh_server/server.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -147,6 +175,9 @@
     <findStrings>
       <find>TIMEOUT</find>
       <find>IntanglesAPIException</find>
+      <find>aid</find>
+      <find>fuel</find>
+      <find>app2</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -173,9 +204,15 @@
         <option value="$PROJECT_DIR$/asyncio-tutorial/test5.py" />
         <option value="$PROJECT_DIR$/asyncio-tutorial/test6.py" />
         <option value="$PROJECT_DIR$/asyncio-tutorial/test7.py" />
-        <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/async_http/aiohttp_client.py" />
         <option value="$PROJECT_DIR$/async_http/tornado_httpclient.py" />
+        <option value="$PROJECT_DIR$/bokeh_server/server.py" />
+        <option value="$PROJECT_DIR$/setup.py" />
+        <option value="$PROJECT_DIR$/bokeh_server/handlers/__init__.py" />
+        <option value="$PROJECT_DIR$/bokeh_server/handlers/fuel.py" />
+        <option value="$PROJECT_DIR$/bokeh_server/__init__.py" />
+        <option value="$PROJECT_DIR$/bokeh_server/bokeh_apps/app1.py" />
+        <option value="$PROJECT_DIR$/bokeh_server/bokeh_apps/app2.py" />
       </list>
     </option>
   </component>
@@ -203,6 +240,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -214,7 +252,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -366,9 +403,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="59" y="25" width="1307" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24942617" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24942617" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -474,10 +510,82 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/asyncio-tutorial/test6.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="20" />
+          <folding>
+            <element signature="e#20#34#0" expanded="false" />
+            <marker date="1532522066617" expanded="true" signature="90:95" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asyncio-tutorial/test5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="36" column="28" lean-forward="false" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="28" />
+          <folding>
+            <element signature="e#52#66#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asyncio-tutorial/test4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="28" column="33" lean-forward="false" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+          <folding>
+            <marker date="1532520787574" expanded="true" signature="148:153" ph="..." />
+            <marker date="1532520787574" expanded="true" signature="594:599" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/async_http/aiohttp_client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="21" column="27" lean-forward="false" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#11#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asyncio-tutorial/test3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="13" column="41" lean-forward="false" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+          <folding>
+            <element signature="e#30#44#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asyncio-tutorial/test7.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding>
+            <marker date="1532534979005" expanded="true" signature="75:80" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/async_http/tornado_httpclient.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1242">
+          <caret line="77" column="43" lean-forward="false" selection-start-line="77" selection-start-column="43" selection-end-line="77" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asyncio-tutorial/test6.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="20" />
           <folding>
-            <element signature="e#20#34#0" expanded="true" />
+            <element signature="e#20#34#0" expanded="false" />
             <marker date="1532522066617" expanded="true" signature="90:95" ph="..." />
           </folding>
         </state>
@@ -488,7 +596,7 @@
         <state relative-caret-position="648">
           <caret line="36" column="28" lean-forward="false" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="28" />
           <folding>
-            <element signature="e#52#66#0" expanded="true" />
+            <element signature="e#52#66#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -519,7 +627,7 @@
         <state relative-caret-position="234">
           <caret line="13" column="41" lean-forward="false" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
           <folding>
-            <element signature="e#30#44#0" expanded="true" />
+            <element signature="e#30#44#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -539,7 +647,7 @@
         <state relative-caret-position="378">
           <caret line="21" column="27" lean-forward="false" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -549,7 +657,7 @@
         <state relative-caret-position="360">
           <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="20" />
           <folding>
-            <element signature="e#20#34#0" expanded="true" />
+            <element signature="e#20#34#0" expanded="false" />
             <marker date="1532522066617" expanded="true" signature="90:95" ph="..." />
           </folding>
         </state>
@@ -560,7 +668,7 @@
         <state relative-caret-position="648">
           <caret line="36" column="28" lean-forward="false" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="28" />
           <folding>
-            <element signature="e#52#66#0" expanded="true" />
+            <element signature="e#52#66#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -591,7 +699,7 @@
         <state relative-caret-position="234">
           <caret line="13" column="41" lean-forward="false" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
           <folding>
-            <element signature="e#30#44#0" expanded="true" />
+            <element signature="e#30#44#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -611,7 +719,7 @@
         <state relative-caret-position="234">
           <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -621,7 +729,7 @@
         <state relative-caret-position="342">
           <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="20" />
           <folding>
-            <element signature="e#20#34#0" expanded="true" />
+            <element signature="e#20#34#0" expanded="false" />
             <marker date="1532522066617" expanded="true" signature="90:95" ph="..." />
           </folding>
         </state>
@@ -632,7 +740,7 @@
         <state relative-caret-position="558">
           <caret line="36" column="28" lean-forward="false" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="28" />
           <folding>
-            <element signature="e#52#66#0" expanded="true" />
+            <element signature="e#52#66#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -663,7 +771,7 @@
         <state relative-caret-position="198">
           <caret line="13" column="41" lean-forward="true" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
           <folding>
-            <element signature="e#30#44#0" expanded="true" />
+            <element signature="e#30#44#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -726,10 +834,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/asyncio-tutorial/test6.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
+        <state relative-caret-position="342">
           <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="20" />
           <folding>
-            <element signature="e#20#34#0" expanded="true" />
+            <element signature="e#20#34#0" expanded="false" />
             <marker date="1532522066617" expanded="true" signature="90:95" ph="..." />
           </folding>
         </state>
@@ -737,10 +845,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/asyncio-tutorial/test5.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
+        <state relative-caret-position="558">
           <caret line="36" column="28" lean-forward="false" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="28" />
           <folding>
-            <element signature="e#52#66#0" expanded="true" />
+            <element signature="e#52#66#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -757,10 +865,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/asyncio-tutorial/test3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
+        <state relative-caret-position="198">
           <caret line="13" column="41" lean-forward="false" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
           <folding>
-            <element signature="e#30#44#0" expanded="true" />
+            <element signature="e#30#44#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -776,20 +884,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="20" column="23" lean-forward="false" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/async_http/aiohttp_client.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
+        <state relative-caret-position="252">
           <caret line="21" column="27" lean-forward="false" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -800,6 +900,90 @@
           <caret line="77" column="43" lean-forward="false" selection-start-line="77" selection-start-column="43" selection-end-line="77" selection-end-column="43" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bokeh_server/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="38" column="14" lean-forward="false" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bokeh_server/handlers/app2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="27" lean-forward="false" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bokeh_server/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="29" column="51" lean-forward="false" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
+          <folding>
+            <element signature="e#15#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bokeh_server/handlers/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="30" column="8" lean-forward="false" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="64" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bokeh_server/handlers/app1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bokeh_server/bokeh_apps/app1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bokeh_server/bokeh_apps/app2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="46" lean-forward="false" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bokeh_server/bokeh_apps/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
