@@ -53,12 +53,12 @@ def grep_yield_as_expr(pattern):
 
 
 # # demo of yield as expression
-# g = grep_yield_as_expr("mudassir")
+# g = grep_yield_as_expr("test")
 # g.__next__()
 #
-# g.send("mudassir wants peace")
-# g.send("life screwes")
-# g.send("I'm done")
+# g.send("Test")
+# g.send("life tests")
+# g.send("I'm done testing")
 # g.throw("exceptionsssssssssss")
 
 
