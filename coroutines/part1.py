@@ -80,9 +80,9 @@ def grep_yield_as_expr_v2(pattern):
 
 
 # demo of using decorator
-# g = grep_yield_as_expr_v2("mudassir")
+# g = grep_yield_as_expr_v2("CO-Routines ")
 # # This time no need to prime the generator as it is decorated to get primed already
-# g.send("mudassir wants peace")
-# g.send("life screws")
-# g.send("f**k off")
+# g.send("test1")
+# g.send("test2")
+# g.send("test3")
 # g.close()
